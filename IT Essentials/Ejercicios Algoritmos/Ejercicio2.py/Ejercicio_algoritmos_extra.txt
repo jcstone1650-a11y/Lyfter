@@ -1,0 +1,50 @@
+Cree un algoritmo como preparar una fiesta sorpresa para un amigo o familiar. Considere si la 
+persona está en casa o no, si los invitados ya llegaron o no, qué hacer mientras esperan, y 
+cómo finaliza la fiesta
+--------------------------------------------------------------------------------------------
+1. Inicio
+2. Fiesta sorpresa
+3. Si el cumpleañero ya llego a la casa 
+	1. Iniciamos la fiesta
+4. Sino, esperamos a que lleguen los invitados y el cumpleañero
+	1. Iniciamos la fiesta
+5. Sino, esperamos que lleguen los invitados
+	1. Iniciamos la fiesta
+6. Mientras llega el cumpleañero
+	1. Alistamos un ultimos detalles de la fiesta
+	2. Servimos las bebidas
+	3. La cosas de pichar 
+	4. Vamos encendiendo la parrilla
+	5. Por ultimo llamamos al cumpleañero para ver si ya va llegando 
+7. Podemos finalizar la fiesta con un karaoke y unos postres.
+8. Fin
+
+
+Cree un algoritmo que represente cómo prepararse para un examen importante. Debe incluir una lista de 
+actividades (leer, repasar, practicar), condiciones como si ya entendió la materia, o si tiene dudas,
+ y un ciclo que se repita hasta sentirse listo
+----------------------------------------------------------------------------------------------------
+1. Inicio
+2. Prepararse para un examen importante 
+3. Si ya leistes y repasastes y practicastes para el examen
+	1. Realiza el examen
+4. Sino, sigue estudiando
+5. Mientras no estes listo para el examen 
+	1. Sigue estudiando.
+6. Si ya entendio la materia y no tiene dudas al respecto
+	1. Realiza el examen 
+7. Fin
+
+
+Cree un algoritmo de como se prepara para ir a su viaje de diversión favorito
+-----------------------------------------------------------------------------
+1. Inicio
+2. Viaje de diversion favorito
+3. Alistamos todo antes de irnos de viaje
+	1. La ropa
+	2. Los medicamentos 
+	3. El hospedaje
+4. Si esta todo listo para el viaje
+	1. Viajamos
+5. Sino, alistamos la ropa, los medicamentos y el tema del hospedaje.
+6. Fin

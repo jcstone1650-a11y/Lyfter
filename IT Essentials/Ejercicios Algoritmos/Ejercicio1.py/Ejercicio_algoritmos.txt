@@ -1,0 +1,56 @@
+Cree un algoritmo para ver un video en Youtube. Sea lo más especifico posible.
+------------------------------------------------------------------------------
+1. Inicio
+2. Ver un video en Youtube 
+3. Busco mi telefono 
+4. Abro la aplicacion de Youtube
+5. Seleciono el video que quiero ver
+7. Fin
+
+Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones multiples y ciclos.
+-------------------------------------------------------------------------------------------------
+1. Inicio
+2. Rutina diaria
+3. Me levanto a las 6:00am
+4. Alisto el cafe
+	1. Busco la bolsa de cafe
+	2. Le hecho agua al coffe maker
+	3. Enciendo el coffe maker
+5. Por lo general desayuno huevo frito con pan 
+6. Si hay huevos y aceite y cebolla
+	1. Cocino
+7. Sino, si hay cereal y leche 
+	1. desayuno cereal
+8. Despues del desayuno, salgo a correr una hora
+9. Mientras haga un buen clima
+	1. Salgo a correr
+10. Almuerzo al medio dia
+11. Preparo el arroz
+	1. Agua
+	2. Aceite
+	3. Cebolla y chile
+12. Preparo el fresco 
+13. Si hay limones y azucar y agua
+	1. Preparo el fresco de limon
+14. Sino, si hay cas azucar y agua
+	1. Preparo el fresco de cas
+15. Sino, tomo agua
+	1. Tomo agua
+16. En la tarde
+17. Mientras haga un buen clima
+	 1. Juego bola o salgo a caminar
+18. Sino 
+	1. Me quedo en la casa estudiando
+19. Desayuno
+20. Me encanta comer lazaña
+21. Si hay lazaña
+	1. Como lazaña
+22. Sino, si tengo plata, mando a comprar lazaña
+	1. Compro lazaña
+23. Sino, como otra cosa
+	1. Alisto algo mas de comer
+24. Me alisto para dormir 
+25. Mientras todo en la casa este bien, la casa limpia, el porton cerrado, todo desconectado 
+	1. Me acuesto
+26. Fin
+	

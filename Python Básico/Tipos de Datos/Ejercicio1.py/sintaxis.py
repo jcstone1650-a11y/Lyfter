@@ -49,7 +49,7 @@ age = int(input("¿Cuál es tu edad?: "))
 #Rango de edades
 if age <= 2:
     category = "bebé"
-elif age <= 9:
+elif age <= 5:
     category = "niño"
 elif age <= 12:
     category = "preadolescente"

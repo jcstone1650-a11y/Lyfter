@@ -3,7 +3,7 @@
 
 import csv 
 
-#Solicitamos la inforamcion de los videojuegos al usuario
+#Solicitamos la informacion de los videojuegos al usuario
 def get_videogame_data():
     name = input("Nombre: ").strip()
     genre = input("Genero: ").strip()

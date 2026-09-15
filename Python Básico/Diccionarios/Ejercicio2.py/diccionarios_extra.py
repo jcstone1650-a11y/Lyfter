@@ -78,4 +78,3 @@ for product in products:
     totals[category] += price
 
 print(totals)
-

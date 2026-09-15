@@ -1,0 +1,19 @@
+Comit bdfc9e5
+Que cambio: El formato del archivo fue reemplazado
+Por que: 
+
+Comit 5853370
+Que cambio: Se realizo un solicitud de pull request
+Por que:
+
+Comit de3cf28
+Que cambio: Se agrego un nuevo archivo .gitinore
+Por que:
+
+Comit 40946b2
+Que cambio: Se realizo un solicitud de pull request
+Por que:
+
+Comit 26113d2
+Que cambio: Se elimino el archivo .DS_Store del repositorio
+Por que:

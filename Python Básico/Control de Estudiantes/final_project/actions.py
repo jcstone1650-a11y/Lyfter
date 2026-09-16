@@ -1,7 +1,5 @@
 import re
 
-students = []
-
 def is_valid_name(name):
     return bool(name.strip()) and not any(char.isdigit() for char in name)
 
@@ -11,10 +9,10 @@ def is_valid_section(section):
 def is_valid_grade(grade):
     return 0 <= grade <= 100
 
-def student_exists(name, section):
+def student_exists(students,name, section):
     return any(s for s in students if s["name"] == name and s["section"] == section)
 
-def add_student():
+def add_student(students):
     name = input("Enter full name: ")
     if not is_valid_name(name):
         print("Invalid name.")
@@ -25,7 +23,7 @@ def add_student():
         print("Invalid section format.")
         return
 
-    if student_exists(name, section):
+    if student_exists(students, name, section):
         print("Student already exists.")
         return
 
@@ -45,7 +43,7 @@ def add_student():
     students.append({"name": name, "section": section, "grades": grades})
     print("Student added successfully.")
 
-def list_students():
+def list_students(students):
     if not students:
         print("No students registered.")
         return
@@ -55,7 +53,7 @@ def list_students():
 def calculate_average(student):
     return sum(student["grades"].values()) / len(student["grades"])
 
-def top_students():
+def top_students(students):
     if not students:
         print("No students registered.")
         return
@@ -63,14 +61,14 @@ def top_students():
     for s in sorted_students[:3]:
         print(f"{s['name']} ({s['section']}) - Avg: {calculate_average(s):.2f}")
 
-def average_all():
+def average_all(students):
     if not students:
         print("No students registered.")
         return
     avg = sum(calculate_average(s) for s in students) / len(students)
     print(f"Overall average: {avg:.2f}")
 
-def show_failed_students():
+def show_failed_students(students):
     failed = []
     for s in students:
         failed_subjects = {sub: grade for sub, grade in s["grades"].items() if grade < 60}
@@ -82,7 +80,7 @@ def show_failed_students():
         for name, section, subjects in failed:
             print(f"{name} ({section}) failed: {subjects}")
 
-def delete_student():
+def delete_student(students):
     name = input("Enter student name to delete: ")
     section = input("Enter section: ")
     for s in students:

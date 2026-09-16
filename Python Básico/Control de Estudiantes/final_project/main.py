@@ -1,8 +1,14 @@
+students = []
+show_menu(students)
+
 from menu import show_menu
 
 def main():
-    show_menu()
+    students=[]
+    show_menu(students)
 
 if __name__ == "__main__":
     main()
+
+
 

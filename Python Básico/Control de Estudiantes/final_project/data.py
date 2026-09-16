@@ -1,9 +1,8 @@
 import csv
-from actions import students
 
 FILENAME = "students.csv"
 
-def export_data():
+def export_data(students):
     if not students:
         print("No data to export.")
         return
@@ -14,7 +13,7 @@ def export_data():
             writer.writerow([s["name"], s["section"], *s["grades"].values()])
     print("Data exported successfully.")
 
-def import_data():
+def import_data(students):
     try:
         with open(FILENAME, "r") as file:
             reader = csv.DictReader(file)

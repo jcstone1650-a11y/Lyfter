@@ -8,7 +8,7 @@ from actions import (
 )
 from data import export_data, import_data
 
-def show_menu():
+def show_menu(students):
     while True:
         print("\n--- Student Management System ---")
         print("1. Add student")
@@ -24,21 +24,21 @@ def show_menu():
         choice = input("Choose an option: ")
 
         if choice == "1":
-            add_student()
+            add_student(students)
         elif choice == "2":
-            list_students()
+            list_students(students)
         elif choice == "3":
-            top_students()
+            top_students(students)
         elif choice == "4":
-            average_all()
+            average_all(students)
         elif choice == "5":
-            export_data()
+            export_data(students)
         elif choice == "6":
-            import_data()
+            import_data(students)
         elif choice == "7":
-            show_failed_students()
+            show_failed_students(students)
         elif choice == "8":
-            delete_student()
+            delete_student(students)
         elif choice == "9":
             print("Goodbye!")
             break

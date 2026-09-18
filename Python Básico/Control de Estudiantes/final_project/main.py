@@ -1,6 +1,3 @@
-students = []
-show_menu(students)
-
 from menu import show_menu
 
 def main():

@@ -10,18 +10,20 @@ from data import export_data, import_data
 
 def show_menu(students):
     while True:
-        print("\n--- Student Management System ---")
-        print("1. Add student")
-        print("2. List students")
-        print("3. Show top 3 students")
-        print("4. Show average grade of all students")
-        print("5. Export data to CSV")
-        print("6. Import data from CSV")
-        print("7. Show failed students")
-        print("8. Delete student")
-        print("9. Exit")
+        print("\n--- Sistema de Control de Estudiantes ---")
+        print()
+        print("1. Agregar estudiante")
+        print("2. Lista de estudiantes")
+        print("3. Mostrar los primeros 3 promedios")
+        print("4. Mostrar promedio individual de cada estudiante")
+        print("5. Exportar la informacion en CSV")
+        print("6. Importar la inforamcion en CSV")
+        print("7. Estudiantes reprobados")
+        print("8. Eliminar estudiante")
+        print("9. Salir")
 
-        choice = input("Choose an option: ")
+        print()
+        choice = input("Seleccione una opción: ")
 
         if choice == "1":
             add_student(students)
@@ -40,7 +42,10 @@ def show_menu(students):
         elif choice == "8":
             delete_student(students)
         elif choice == "9":
-            print("Goodbye!")
+            print("Adios!")
             break
         else:
-            print("Invalid option. Please try again.")
+            print("\n")
+            print("-" * 36)
+            print("Error. Por favor inténtelo de nuevo.")
+            print("-" * 36)

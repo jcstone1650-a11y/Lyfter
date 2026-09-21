@@ -42,5 +42,3 @@ for key in list_of_keys:
         del employee[key]
         
 print(employee)
-
-
